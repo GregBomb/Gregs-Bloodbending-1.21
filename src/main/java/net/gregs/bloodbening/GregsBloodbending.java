@@ -2,6 +2,7 @@ package net.gregs.bloodbening;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.gregs.bloodbening.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class GregsBloodbending implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        ModItems.registrarModItems();
 	}
 }
