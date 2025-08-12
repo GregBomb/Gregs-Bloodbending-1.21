@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gregsbloodbending",
+	"version": "${version}",
+	"name": "Gregs Bloodbending",
+	"description": "My try on a Bloodbending mod bec. I could't find one.",
+	"authors": [
+		"Greg_Bomb"
+	],
+	"contact": {
+		"homepage": "none",
+		"sources": "https://github.com/GregBomb/GregsBloodbending"
+	},
+	"license": "MIT",
+	"icon": "assets/gregsbloodbending/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gregs.bloodbening.GregsBloodbending"
+		],
+		"fabric-datagen": [
+			"net.gregs.bloodbening.GregsBloodbendingDataGenerator"
+		],
+        "Client": [
+          "net.gregs.bloodbending.GregsBloodbendingClient"
+        ]
+	},
+	"mixins": [
+		"gregsbloodbending.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
