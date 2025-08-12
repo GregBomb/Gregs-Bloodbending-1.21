@@ -1,5 +1,7 @@
 {
   "itemgroup.gregsbloodbending.mod_items": "Greg's Bloodbending",
-  "item.gregsbloodbending.blood_amulet": "Blood Amulet",
-  "item.gregsbloodbending.empty_blood_amulet": "Empty Blood Amulet"
+  "item.gregsbloodbending.blood_orb": "Blood Orb",
+  "item.gregsbloodbending.empty_blood_orb": "Empty Blood Orb",
+  "item.gregsbloodbending.magic_missile_staff": "Magic Missile Staff",
+  "magic_missile_staff_tooltip": "This Staff uses Blood Orb to shot projectiles! (work in progress)"
 }

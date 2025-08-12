@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O": {
+      "item": "gregsbloodbending:blood_orb"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+      }
+  },
+  "pattern": [
+    "IOI",
+    " L ",
+    " L "
+  ],
+  "result": {
+    "count": 1,
+    "id": "gregsbloodbending:magic_missile_staff"
+  }
+}

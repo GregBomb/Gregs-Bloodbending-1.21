@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gregsbloodbending:item/blood_amulet_empty"
+    "layer0": "gregsbloodbending:item/magic_missile_staff"
   }
 }
