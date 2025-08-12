@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gregsbloodbending:item/blood_amulet"
+    "layer0": "gregsbloodbending:item/blood_amulet_full"
   }
 }
