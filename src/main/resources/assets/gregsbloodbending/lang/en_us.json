@@ -1,3 +1,5 @@
 {
-  "item.gregsbloodbending.blood_amulet": "Blood Amulet"
+  "itemgroup.gregsbloodbending.mod_items": "Greg's Bloodbending",
+  "item.gregsbloodbending.blood_amulet": "Blood Amulet",
+  "item.gregsbloodbending.empty_blood_amulet": "Empty Blood Amulet"
 }

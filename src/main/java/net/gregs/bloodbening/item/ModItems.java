@@ -11,6 +11,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item Blood_Amulet = registrarItem("blood_amulet", new Item(new Item.Settings()));
+    public static final Item empty_Blood_Amulet = registrarItem("empty_blood_amulet", new Item(new Item.Settings()));
+
 
 
     private static Item registrarItem(String name, Item item) {
@@ -19,9 +21,5 @@ public class ModItems {
 
     public static void registrarModItems() {
         GregsBloodbending.LOGGER.info("Registrering Mod Items for " + GregsBloodbending.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(Blood_Amulet);
-        });
     }
 }
