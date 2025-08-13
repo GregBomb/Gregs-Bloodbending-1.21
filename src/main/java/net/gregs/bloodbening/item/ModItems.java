@@ -2,6 +2,7 @@ package net.gregs.bloodbening.item;
 
 import net.gregs.bloodbening.GregsBloodbending;
 import net.gregs.bloodbening.item.custom.MagicMissileStaffItem;
+import net.gregs.bloodbening.item.custom.ModArmorItem;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -19,7 +20,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.BLOOD_METAL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33))));
     public static final Item blood_metal_chestplate = registrarItem("blood_metal_chestplate",
-            new ArmorItem(ModArmorMaterials.BLOOD_METAL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.BLOOD_METAL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(33))));
     public static final Item blood_metal_leggins = registrarItem("blood_metal_leggins",
             new ArmorItem(ModArmorMaterials.BLOOD_METAL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
