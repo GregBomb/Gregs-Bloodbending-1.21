@@ -91,7 +91,7 @@ public class MagicMissileStaffItem extends RangedWeaponItem {
                             playerEntity.getZ(),
                             SoundEvents.ENTITY_ENDER_DRAGON_SHOOT,
                             SoundCategory.PLAYERS,
-                            1.0F,
+                            0.5F,
                             1.0F / (world.getRandom().nextFloat() * 0.4F + 1.2F) + f * 0.5F
                     );
                     playerEntity.incrementStat(Stats.USED.getOrCreateStat(this));

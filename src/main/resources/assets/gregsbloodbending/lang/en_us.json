@@ -2,7 +2,14 @@
   "itemgroup.gregsbloodbending.mod_items": "Greg's Bloodbending",
   "item.gregsbloodbending.blood_orb": "Blood Orb",
   "item.gregsbloodbending.empty_blood_orb": "Empty Blood Orb",
+  "item.gregsbloodbending.blood_shard": "Blood Shard",
+
   "item.gregsbloodbending.magic_missile_staff": "Magic Missile Staff",
   "magic_missile_staff_tooltip": "This Staff uses Blood Shards to shoot projectiles!",
-  "item.gregsbloodbending.blood_shard": "Blood Shard"
+
+  "item.gregsbloodbending.blood_metal_helmet": "Blood Metal Helmet",
+  "item.gregsbloodbending.blood_metal_chestplate": "Blood Metal Chestplate",
+  "item.gregsbloodbending.blood_metal_leggins": "Blood Metal Leggins",
+  "item.gregsbloodbending.blood_metal_boots": "Blood Metal Boots",
+  "item.gregsbloodbending.blood_metal": "Blood Metal"
 }
