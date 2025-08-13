@@ -9,7 +9,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.RangedWeaponItem;
 import net.minecraft.item.tooltip.TooltipType;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
@@ -22,7 +21,6 @@ import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
-import static net.gregs.bloodbening.item.ModItems.blood_orb;
 import static net.gregs.bloodbening.item.ModItems.blood_shard;
 
 public class MagicMissileStaffItem extends RangedWeaponItem {
