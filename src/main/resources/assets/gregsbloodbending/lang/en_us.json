@@ -3,5 +3,6 @@
   "item.gregsbloodbending.blood_orb": "Blood Orb",
   "item.gregsbloodbending.empty_blood_orb": "Empty Blood Orb",
   "item.gregsbloodbending.magic_missile_staff": "Magic Missile Staff",
-  "magic_missile_staff_tooltip": "This Staff uses Blood Orb to shoot projectiles! (work in progress)"
+  "magic_missile_staff_tooltip": "This Staff uses Blood Shards to shoot projectiles!",
+  "blood_shard": "Blood Shard"
 }

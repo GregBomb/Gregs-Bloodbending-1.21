@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item blood_orb = registrarItem("blood_orb", new Item(new Item.Settings()));
     public static final Item empty_blood_orb = registrarItem("empty_blood_orb", new Item(new Item.Settings()));
+    public static final Item blood_shard = registrarItem("blood_shard", new Item(new Item.Settings()));
     public static final Item Magic_Missile_Staff = registrarItem("magic_missile_staff", new MagicMissileStaffItem(new Item.Settings().maxCount(1).maxDamage(128)));
 
 

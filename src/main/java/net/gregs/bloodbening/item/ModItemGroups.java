@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.empty_blood_orb);
                         entries.add(ModItems.blood_orb);
                         entries.add(ModItems.Magic_Missile_Staff);
+                        entries.add(ModItems.blood_shard);
                     }).build());
 
     public static void registrarItemGroups() {
