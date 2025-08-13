@@ -18,11 +18,11 @@ import java.util.function.Supplier;
 public class ModArmorMaterials {
     public static final RegistryEntry<ArmorMaterial> BLOOD_METAL_ARMOR_MATERIAL = registerArmorMaterial("blood_metal",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-                map.put(ArmorItem.Type.BOOTS, 2);
-                map.put(ArmorItem.Type.LEGGINGS, 4);
-                map.put(ArmorItem.Type.CHESTPLATE, 6);
-                map.put(ArmorItem.Type.HELMET, 2);
-                map.put(ArmorItem.Type.BODY, 4);
+                map.put(ArmorItem.Type.BOOTS, 3);
+                map.put(ArmorItem.Type.LEGGINGS, 6);
+                map.put(ArmorItem.Type.CHESTPLATE, 8);
+                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.BODY, 11);
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, () -> Ingredient.ofItems(ModItems.blood_orb),
                     List.of(new ArmorMaterial.Layer(Identifier.of(GregsBloodbending.MOD_ID, "blood_metal_armor"))), 0, 0));
 

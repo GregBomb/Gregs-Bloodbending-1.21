@@ -1,12 +1,9 @@
 package net.gregs.bloodbening.item.custom;
 
-import net.gregs.bloodbening.GregsBloodbending;
 import net.gregs.bloodbening.item.ModItems;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
@@ -15,9 +12,6 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
 import java.util.List;
-
-import static com.ibm.icu.impl.locale.KeyTypeData.ValueType.any;
-import static net.minecraft.entity.damage.DamageTypes.DRY_OUT;
 
 public class EmptyBloodOrbItem extends Item {
     public EmptyBloodOrbItem(Settings settings) {super(settings);}
