@@ -2,6 +2,7 @@
   "itemgroup.gregsbloodbending.mod_items": "Greg's Bloodbending",
   "item.gregsbloodbending.blood_orb": "Blood Orb",
   "item.gregsbloodbending.empty_blood_orb": "Empty Blood Orb",
+  "empty_blood_orb_tooltip": "Right klick to fill with Blood",
   "item.gregsbloodbending.blood_shard": "Blood Shard",
 
   "item.gregsbloodbending.magic_missile_staff": "Magic Missile Staff",

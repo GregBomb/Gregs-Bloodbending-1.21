@@ -1,6 +1,7 @@
 package net.gregs.bloodbening.item;
 
 import net.gregs.bloodbening.GregsBloodbending;
+import net.gregs.bloodbening.item.custom.EmptyBloodOrbItem;
 import net.gregs.bloodbening.item.custom.MagicMissileStaffItem;
 import net.gregs.bloodbening.item.custom.ModArmorItem;
 import net.minecraft.item.ArmorItem;
@@ -11,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item blood_orb = registrarItem("blood_orb",new Item(new Item.Settings()));
-    public static final Item empty_blood_orb = registrarItem("empty_blood_orb", new Item(new Item.Settings()));
+    public static final Item empty_blood_orb = registrarItem("empty_blood_orb", new EmptyBloodOrbItem(new Item.Settings()));
     public static final Item blood_shard = registrarItem("blood_shard", new Item(new Item.Settings()));
     public static final Item Magic_Missile_Staff = registrarItem("magic_missile_staff", new MagicMissileStaffItem(new Item.Settings().maxCount(1).maxDamage(128)));
     public static final Item blood_metal = registrarItem("blood_metal",new Item(new Item.Settings()));
