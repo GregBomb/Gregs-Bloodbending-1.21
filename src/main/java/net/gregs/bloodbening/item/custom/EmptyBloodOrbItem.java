@@ -19,13 +19,13 @@ public class EmptyBloodOrbItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("empty_blood_orb_tooltip").formatted(Formatting.GOLD));}
+        tooltip.add(Text.translatable("empty_blood_orb_tooltip").formatted(Formatting.DARK_RED));}
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
         if (!world.isClient()) {
-            if(user.damage(user.getDamageSources().dryOut(), 10.0f))
+            if(user.damage(user.getDamageSources().dryOut(), 19.0f))
                 if(user.getInventory().insertStack(new ItemStack(ModItems.blood_orb)))
                     user.getStackInHand(hand).decrement(1);
             return TypedActionResult.success(itemStack);

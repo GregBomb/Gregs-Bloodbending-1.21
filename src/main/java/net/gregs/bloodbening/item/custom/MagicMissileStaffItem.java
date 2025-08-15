@@ -31,7 +31,7 @@ public class MagicMissileStaffItem extends RangedWeaponItem {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("magic_missile_staff_tooltip").formatted(Formatting.GOLD));
+        tooltip.add(Text.translatable("magic_missile_staff_tooltip").formatted(Formatting.DARK_RED));
     }
 
     @Override
@@ -44,7 +44,7 @@ public class MagicMissileStaffItem extends RangedWeaponItem {
                 if (!(f < 0.1)) {
                     List<ItemStack> list = load(stack, itemStack, playerEntity);
                     if (world instanceof ServerWorld serverWorld && !list.isEmpty()) {
-                        this.shootAll(serverWorld, playerEntity, playerEntity.getActiveHand(), stack, list, f * 3.0F, 1.0F, f == 1.0F, null);
+                        this.shootAll(serverWorld, playerEntity, playerEntity.getActiveHand(), stack, list, f * 2.0F, 0F, f == 1.0F, null);
                     }
 
                     world.playSound(
