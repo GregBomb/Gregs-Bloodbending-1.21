@@ -3,8 +3,8 @@
 	"credit": "Made-with-Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"2": "gregsbloodbending:item/magic_missile_staff_model_texture2",
-		"particle": "gregsbloodbending:item/magic_missile_staff_model_texture2"
+		"2": "gregsbloodbending:item/magic_missile_staff_model_texture",
+		"particle": "gregsbloodbending:item/magic_missile_staff_model_texture"
 	},
 	"elements": [
 		{
